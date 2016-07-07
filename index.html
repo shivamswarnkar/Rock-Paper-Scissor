@@ -1,1 +1,36 @@
-<h1>Hello World!</h1>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rock-Paper-Scissors</title>
+	<link rel="stylesheet" type="text/css" href="game.css">
+
+	
+</head>
+
+<body>
+<header>
+	<h1>Rock Paper Scissor</h1>
+</header>
+
+
+<section class="play">
+	<h2> Playground </h2>
+	<audio controls autoplay>
+	  <source src="http://mysoftmusic.com/preview/Preview-Good-Morning.mp3" type="audio/mp3">
+	  Your browser does not support the audio element.
+	</audio>
+	<button  class="choice" onclick="game(0)" id="comp">Rock</button>
+	<button class="choice" onclick="game(1)"  id="center">Paper</button>
+	<button class="choice" onclick="game(2)" id="user">Scissor</button>
+	<button id="try" onclick="reset()"> </button>
+</section>
+
+<footer>
+	&copy Shivam Swarnkar
+</footer>
+
+
+<script src="game.js"></script>
+
+</body>
+</html>
